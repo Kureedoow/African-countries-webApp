@@ -7,7 +7,7 @@ const Country = ({ country }) => {
       <img
         src={country.flag}
         alt={`${country.name} flag`}
-        className="w-full h-48 object-cover"
+        className="w-full h-70 object-cover"
       />
 
       {/* Info */}
