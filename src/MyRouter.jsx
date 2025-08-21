@@ -7,13 +7,8 @@ import Countries from "./components/Countries";
 function MyRouter() {
   return (
     <BrowserRouter>
-      <Routes>
-        {/* Home page */}
-        <Route path="/" element={<Herro />} />
-
-        {/* Countries page */}
-        <Route path="/countries" element={<Countries/>} />
-      </Routes>
+      <Routes
+        />
     </BrowserRouter>
   );
 }
